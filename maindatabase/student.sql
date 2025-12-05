@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 11, 2025 at 03:19 PM
+-- Generation Time: Dec 05, 2025 at 05:59 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -38,7 +38,7 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('laravel_cache_spatie.permission.cache', 'a:3:{s:5:\"alias\";a:4:{s:1:\"a\";s:2:\"id\";s:1:\"b\";s:4:\"name\";s:1:\"c\";s:10:\"guard_name\";s:1:\"r\";s:5:\"roles\";}s:11:\"permissions\";a:24:{i:0;a:4:{s:1:\"a\";i:1;s:1:\"b\";s:11:\"add teacher\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:1;a:4:{s:1:\"a\";i:2;s:1:\"b\";s:12:\"view teacher\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:2;a:4:{s:1:\"a\";i:3;s:1:\"b\";s:12:\"edit teacher\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:3;a:4:{s:1:\"a\";i:4;s:1:\"b\";s:14:\"delete teacher\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:4;a:4:{s:1:\"a\";i:5;s:1:\"b\";s:11:\"add student\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:5;a:4:{s:1:\"a\";i:6;s:1:\"b\";s:12:\"view student\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:6;a:4:{s:1:\"a\";i:7;s:1:\"b\";s:12:\"edit student\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:7;a:4:{s:1:\"a\";i:8;s:1:\"b\";s:14:\"delete student\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:8;a:4:{s:1:\"a\";i:9;s:1:\"b\";s:12:\"view Profile\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:9;a:4:{s:1:\"a\";i:10;s:1:\"b\";s:12:\"edit Profile\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:3:{i:0;i:1;i:1;i:2;i:2;i:3;}}i:10;a:4:{s:1:\"a\";i:11;s:1:\"b\";s:9:\"view role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:11;a:4:{s:1:\"a\";i:12;s:1:\"b\";s:10:\"add course\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:12;a:4:{s:1:\"a\";i:13;s:1:\"b\";s:11:\"view course\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:3:{i:0;i:1;i:1;i:2;i:2;i:3;}}i:13;a:4:{s:1:\"a\";i:14;s:1:\"b\";s:11:\"edit course\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:14;a:4:{s:1:\"a\";i:15;s:1:\"b\";s:13:\"delete course\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:15;a:4:{s:1:\"a\";i:16;s:1:\"b\";s:11:\"add subject\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:16;a:4:{s:1:\"a\";i:17;s:1:\"b\";s:12:\"edit subject\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:17;a:4:{s:1:\"a\";i:18;s:1:\"b\";s:14:\"delete subject\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:18;a:4:{s:1:\"a\";i:19;s:1:\"b\";s:12:\"view subject\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:19;a:4:{s:1:\"a\";i:20;s:1:\"b\";s:9:\"add marks\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:20;a:4:{s:1:\"a\";i:21;s:1:\"b\";s:10:\"edit marks\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:21;a:4:{s:1:\"a\";i:22;s:1:\"b\";s:12:\"delete marks\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:22;a:4:{s:1:\"a\";i:23;s:1:\"b\";s:16:\"view all results\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:23;a:4:{s:1:\"a\";i:24;s:1:\"b\";s:15:\"view own result\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:3:{i:0;i:1;i:1;i:2;i:2;i:3;}}}s:5:\"roles\";a:3:{i:0;a:3:{s:1:\"a\";i:1;s:1:\"b\";s:11:\"Super Admin\";s:1:\"c\";s:3:\"web\";}i:1;a:3:{s:1:\"a\";i:2;s:1:\"b\";s:7:\"teacher\";s:1:\"c\";s:3:\"web\";}i:2;a:3:{s:1:\"a\";i:3;s:1:\"b\";s:7:\"Student\";s:1:\"c\";s:3:\"web\";}}}', 1749729650);
+('laravel_cache_spatie.permission.cache', 'a:3:{s:5:\"alias\";a:4:{s:1:\"a\";s:2:\"id\";s:1:\"b\";s:4:\"name\";s:1:\"c\";s:10:\"guard_name\";s:1:\"r\";s:5:\"roles\";}s:11:\"permissions\";a:24:{i:0;a:4:{s:1:\"a\";i:1;s:1:\"b\";s:11:\"add teacher\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:1;a:4:{s:1:\"a\";i:2;s:1:\"b\";s:12:\"view teacher\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:2;a:4:{s:1:\"a\";i:3;s:1:\"b\";s:12:\"edit teacher\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:3;a:4:{s:1:\"a\";i:4;s:1:\"b\";s:14:\"delete teacher\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:4;a:4:{s:1:\"a\";i:5;s:1:\"b\";s:11:\"add student\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:5;a:4:{s:1:\"a\";i:6;s:1:\"b\";s:12:\"view student\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:6;a:4:{s:1:\"a\";i:7;s:1:\"b\";s:12:\"edit student\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:7;a:4:{s:1:\"a\";i:8;s:1:\"b\";s:14:\"delete student\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:8;a:4:{s:1:\"a\";i:9;s:1:\"b\";s:12:\"view Profile\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:3;}}i:9;a:4:{s:1:\"a\";i:10;s:1:\"b\";s:12:\"edit Profile\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:3:{i:0;i:1;i:1;i:2;i:2;i:3;}}i:10;a:4:{s:1:\"a\";i:11;s:1:\"b\";s:9:\"view role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:11;a:4:{s:1:\"a\";i:12;s:1:\"b\";s:10:\"add course\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:12;a:4:{s:1:\"a\";i:13;s:1:\"b\";s:11:\"view course\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:3:{i:0;i:1;i:1;i:2;i:2;i:3;}}i:13;a:4:{s:1:\"a\";i:14;s:1:\"b\";s:11:\"edit course\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:14;a:4:{s:1:\"a\";i:15;s:1:\"b\";s:13:\"delete course\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:15;a:4:{s:1:\"a\";i:16;s:1:\"b\";s:11:\"add subject\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:16;a:4:{s:1:\"a\";i:17;s:1:\"b\";s:12:\"edit subject\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:17;a:4:{s:1:\"a\";i:18;s:1:\"b\";s:14:\"delete subject\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:18;a:4:{s:1:\"a\";i:19;s:1:\"b\";s:12:\"view subject\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:19;a:4:{s:1:\"a\";i:20;s:1:\"b\";s:9:\"add marks\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:20;a:4:{s:1:\"a\";i:21;s:1:\"b\";s:10:\"edit marks\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:21;a:4:{s:1:\"a\";i:22;s:1:\"b\";s:12:\"delete marks\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:22;a:4:{s:1:\"a\";i:23;s:1:\"b\";s:16:\"view all results\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:2;}}i:23;a:4:{s:1:\"a\";i:24;s:1:\"b\";s:15:\"view own result\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:3:{i:0;i:1;i:1;i:2;i:2;i:3;}}}s:5:\"roles\";a:3:{i:0;a:3:{s:1:\"a\";i:1;s:1:\"b\";s:11:\"Super Admin\";s:1:\"c\";s:3:\"web\";}i:1;a:3:{s:1:\"a\";i:2;s:1:\"b\";s:7:\"teacher\";s:1:\"c\";s:3:\"web\";}i:2;a:3:{s:1:\"a\";i:3;s:1:\"b\";s:7:\"Student\";s:1:\"c\";s:3:\"web\";}}}', 1765037453);
 
 -- --------------------------------------------------------
 
@@ -159,7 +159,9 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (12, '2025_06_10_115727_create_student_result_table', 8),
 (14, '2025_06_10_120921_create_student_results_table', 9),
 (15, '2025_06_11_052943_add_result_to_student_results_table', 9),
-(16, '2025_06_11_060924_change_marks_column_in_student_results_table', 10);
+(16, '2025_06_11_060924_change_marks_column_in_student_results_table', 10),
+(17, '2025_06_12_063159_add_enrollment_on_to_users_table', 11),
+(18, '2025_06_12_064809_add_enrollment_no_to_users_table', 12);
 
 -- --------------------------------------------------------
 
@@ -191,15 +193,34 @@ CREATE TABLE `model_has_roles` (
 
 INSERT INTO `model_has_roles` (`role_id`, `model_type`, `model_id`) VALUES
 (1, 'App\\Models\\User', 1),
+(1, 'App\\Models\\User', 34),
+(1, 'App\\Models\\User', 35),
+(1, 'App\\Models\\User', 38),
+(1, 'App\\Models\\User', 39),
+(1, 'App\\Models\\User', 40),
+(1, 'App\\Models\\User', 41),
+(1, 'App\\Models\\User', 42),
+(1, 'App\\Models\\User', 43),
+(1, 'App\\Models\\User', 44),
+(1, 'App\\Models\\User', 45),
+(1, 'App\\Models\\User', 46),
+(1, 'App\\Models\\User', 47),
+(1, 'App\\Models\\User', 49),
+(1, 'App\\Models\\User', 50),
+(1, 'App\\Models\\User', 51),
+(1, 'App\\Models\\User', 52),
+(1, 'App\\Models\\User', 53),
+(1, 'App\\Models\\User', 55),
 (2, 'App\\Models\\User', 5),
 (2, 'App\\Models\\User', 19),
-(2, 'App\\Models\\User', 26),
+(2, 'App\\Models\\User', 64),
 (3, 'App\\Models\\User', 6),
 (3, 'App\\Models\\User', 17),
-(3, 'App\\Models\\User', 23),
-(3, 'App\\Models\\User', 27),
-(3, 'App\\Models\\User', 28),
-(3, 'App\\Models\\User', 29);
+(3, 'App\\Models\\User', 56),
+(3, 'App\\Models\\User', 58),
+(3, 'App\\Models\\User', 61),
+(3, 'App\\Models\\User', 62),
+(3, 'App\\Models\\User', 63);
 
 -- --------------------------------------------------------
 
@@ -308,7 +329,6 @@ INSERT INTO `role_has_permissions` (`permission_id`, `role_id`) VALUES
 (7, 2),
 (8, 1),
 (8, 2),
-(9, 1),
 (9, 3),
 (10, 1),
 (10, 2),
@@ -363,8 +383,10 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('3NspP27QuToTiyXAG5ySp9dGC3C6QTeG1zzPhwIb', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiMENwVHFCRUZZUnhSQkNyR2hXWTBRYW81RFZneWY2R3QwRFBUdUQ3dSI7czoxODoiZmxhc2hlcjo6ZW52ZWxvcGVzIjthOjA6e31zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozNjoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluL3ZpZXd1c2VyIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTt9', 1749647932),
-('K88BobNOwk3fFqvpxkgjSc06UE0eTyeibCvA9Vog', 17, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiZzRKUm5uVGY1N3hVTTJuWnZpaHZQb2dOSVBHTzVaT2VmYkF6TnVaWiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czoxODoiZmxhc2hlcjo6ZW52ZWxvcGVzIjthOjA6e31zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czo0NzoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL1N0dWRlbnQvcHJvZmlsZXN0dWRlbnQvMTciO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxNzt9', 1749647625);
+('7OsX6faqQGWFRGWCe0u0FaAHfEKCuXrDHuvLm0IP', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiSW9tNXNxNmQydzRrNmZDczR0bDRQbGFsVmJjTE1wN1k1WVFaU3F5OCI7czoxODoiZmxhc2hlcjo6ZW52ZWxvcGVzIjthOjA6e31zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czoyMToiaHR0cDovLzEyNy4wLjAuMTo4MDAwIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1764505986),
+('PGLKk9ymD27zB99Phj3NdcEpZr4oSwG9qaGhhUD4', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiQnZrQUdSandvOVNFYVo5RHJDb1dLRUhSOGRhM3ZBTkNnTkZmVlhlNyI7czoxODoiZmxhc2hlcjo6ZW52ZWxvcGVzIjthOjA6e31zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozOToiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluL2FkZG1hcmtzLzYzIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjc6ImNhcHRjaGEiO3M6NjoiSkJYOTQwIjt9', 1764952723),
+('Satn02vMzQ3vHarEX9WGOKcJ0edf8MHrZ8BkMF74', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiM1lOdzR4aE94M0tQWXRWeWJseGlJMUl3cnpDTkJER0lBUE9VZmlUMCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czoxODoiZmxhc2hlcjo6ZW52ZWxvcGVzIjthOjA6e31zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czoyMToiaHR0cDovLzEyNy4wLjAuMTo4MDAwIjt9fQ==', 1764507035),
+('SYVDmgGsO7jYIZ7UA1uFVJGzZRsZiMWANDsm37ft', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoienBDVnJ0OXZPOFBDY0xCeVAwbXpzZG12bjZVeVZueFJpVjBrVFFRVCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czoxODoiZmxhc2hlcjo6ZW52ZWxvcGVzIjthOjA6e31zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozNjoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluL3ZpZXd1c2VyIjt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTt9', 1764522150);
 
 -- --------------------------------------------------------
 
@@ -386,12 +408,8 @@ CREATE TABLE `student_has_courses` (
 --
 
 INSERT INTO `student_has_courses` (`id`, `user_id`, `course_id`, `course_name`, `created_at`, `updated_at`) VALUES
-(5, 6, 36, 'MCA', '2025-06-10 04:48:50', '2025-06-11 04:00:53'),
-(7, 17, 1, 'BCA', '2025-06-10 23:32:03', '2025-06-11 07:26:10'),
-(8, 23, 1, 'BCA', '2025-06-10 23:35:36', '2025-06-10 23:35:36'),
-(9, 27, 36, 'MCA', '2025-06-11 04:26:21', '2025-06-11 04:26:21'),
-(10, 28, 1, 'BCA', '2025-06-11 04:35:34', '2025-06-11 04:35:34'),
-(11, 29, 36, 'MCA', '2025-06-11 05:50:10', '2025-06-11 05:50:10');
+(1, 64, 1, 'BCA', NULL, NULL),
+(14, 63, 1, 'BCA', '2025-12-05 11:08:35', '2025-12-05 11:08:35');
 
 -- --------------------------------------------------------
 
@@ -412,17 +430,6 @@ CREATE TABLE `student_results` (
   `updated_at` timestamp NULL DEFAULT NULL,
   `result` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `student_results`
---
-
-INSERT INTO `student_results` (`id`, `user_id`, `course_id`, `course_name`, `marks`, `total_marks`, `percentage`, `grade`, `created_at`, `updated_at`, `result`) VALUES
-(5, 6, 36, 'MCA', '[{\"subject\":\"JAVA\",\"marks\":\"10\"},{\"subject\":\"PHP\",\"marks\":\"10\"}]', 20, 10.00, 'F', '2025-06-11 04:17:41', '2025-06-11 04:17:41', 'Fail'),
-(6, 23, 1, 'BCA', '[{\"subject\":\"C++\",\"marks\":\"10\"},{\"subject\":\"Java\",\"marks\":\"10\"},{\"subject\":\"PHP\",\"marks\":\"10\"},{\"subject\":\"HTML\",\"marks\":\"10\"},{\"subject\":\"CSS\",\"marks\":\"10\"},{\"subject\":\".NET\",\"marks\":\"10\"}]', 60, 10.00, 'F', '2025-06-11 04:18:04', '2025-06-11 04:18:04', 'Fail'),
-(7, 17, 1, 'BCA', '[{\"subject\":\"C++\",\"marks\":\"100\"},{\"subject\":\"Java\",\"marks\":\"10\"},{\"subject\":\"PHP\",\"marks\":\"100\"},{\"subject\":\"HTML\",\"marks\":\"100\"},{\"subject\":\"CSS\",\"marks\":\"100\"},{\"subject\":\".NET\",\"marks\":\"100\"}]', 510, 85.00, 'A', '2025-06-11 04:19:37', '2025-06-11 04:19:37', 'Fail'),
-(8, 27, 36, 'MCA', '[{\"subject\":\"JAVA\",\"marks\":\"100\"},{\"subject\":\"PHP\",\"marks\":\"100\"}]', 200, 100.00, 'A+', '2025-06-11 04:33:13', '2025-06-11 05:37:41', 'Pass'),
-(11, 28, 1, 'BCA', '[{\"subject\":\"C++\",\"marks\":\"100\"},{\"subject\":\"Java\",\"marks\":\"100\"},{\"subject\":\"PHP\",\"marks\":\"90\"},{\"subject\":\"HTML\",\"marks\":\"100\"},{\"subject\":\"CSS\",\"marks\":\"100\"},{\"subject\":\".NET\",\"marks\":\"100\"}]', 590, 98.33, 'A+', '2025-06-11 05:47:41', '2025-06-11 07:11:55', 'Pass');
 
 -- --------------------------------------------------------
 
@@ -448,17 +455,10 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `created_by`, `remember_token`, `created_at`, `updated_at`, `role`) VALUES
-(1, 'Super Admin', 'superadmin@gmail.com', NULL, '$2y$12$PI4GX6LATP1HHb7lqc/qluiwjp17WbhFPGgo8dwZZ49BPEdg2c9HS', 0, NULL, '2025-06-06 02:27:06', '2025-06-06 02:27:06', NULL),
-(5, 'Teacher', 'teacher@gmail.com', NULL, '$2y$12$YBvkKMqNrJZfxuzRq493leRuMEwh6jWOcdmEBApMAOGPPx5pE8hMq', 1, NULL, '2025-06-06 02:55:27', '2025-06-06 02:55:27', NULL),
-(6, 'student', 'studetn@gmail.com', NULL, '$2y$12$65nKFDMN5nJZQiIQlCt1GeSTCcz7wsGa4Nw67.Uvk3QOp8r8trB5e', 1, NULL, '2025-06-06 02:57:36', '2025-06-06 02:57:36', NULL),
-(17, 'New student', 'newstudent@gmail.com', NULL, '$2y$12$qthvK8a1/obusxWyBxHN8un99sL3uqs47k///p2mPiEB8u2yrDfwC', 5, NULL, '2025-06-06 03:19:46', '2025-06-06 03:19:46', NULL),
-(19, 'New teacher', 'newteacher@gmail.com', NULL, '$2y$12$TWQnifV5dZDkPwKO48Vl4OwNqY0DEupspozeEAaw.J7XgAm7tTGUO', 1, NULL, '2025-06-06 03:26:28', '2025-06-06 03:26:28', NULL),
-(23, 'Aaron Michael', 'hohilimeh@mailinator.com', NULL, '$2y$12$EXlfRr.ITpu5iqgMnW8i.eOJoi4CXCGVVqAc3WagKludBnLHuHdza', 19, NULL, '2025-06-06 06:41:45', '2025-06-06 06:41:45', NULL),
-(26, 'Reese Durham', 'wuqa@mailinator.com', NULL, '$2y$12$ZRuEt32oBctMrEpvwyVk3eXuTe4X2prvaSeJEV0BSjVKDmWv33Uju', 1, NULL, '2025-06-10 03:54:44', '2025-06-10 03:54:44', NULL),
-(27, 'Amman', 'amman@gmail.com', NULL, '$2y$12$23XItmSQO7ilcjc51QR3d.kRRb/JZFzy7lW.lkT8QebblhBLznj4S', 1, NULL, '2025-06-10 23:37:41', '2025-06-10 23:37:41', NULL),
-(28, 'Karan', 'karan@gmail.com', NULL, '$2y$12$RcYOZB12z1f.1LCYSQtErOYkEwQeJLFo5TLSCVV7Y3WT3gldRSB1i', 1, NULL, '2025-06-11 04:35:24', '2025-06-11 04:35:24', NULL),
-(29, 'vinay', 'vinay@gmail.com', NULL, '$2y$12$kKK/uCE1SiNTQascNSjltetURWpFU8g2CkbdOQBHNHj6hehQ35XGG', 1, NULL, '2025-06-11 05:49:57', '2025-06-11 05:49:57', NULL);
+INSERT INTO `users` (`id`, `name`, `email`, `enrollment_no`, `email_verified_at`, `password`, `created_by`, `remember_token`, `created_at`, `updated_at`, `role`) VALUES
+(1, 'Super Admin', 'superadmin@gmail.com', NULL, NULL, '$2y$12$PI4GX6LATP1HHb7lqc/qluiwjp17WbhFPGgo8dwZZ49BPEdg2c9HS', 0, NULL, '2025-06-06 02:27:06', '2025-06-06 02:27:06', NULL),
+(63, 'HARDIK', 'hardikdodiya2410@gmail.com', '7285008403', NULL, '$2y$12$ZbNDmAZb2Uj3B4ZIJ.bI2ufcvFm4Yw5B74FAwfv1eDXt0mvaxw.OO', 1, NULL, '2025-11-30 09:25:21', '2025-12-05 11:08:35', 'Student'),
+(64, 'hardikdd', 'hardikdd555@gmail.com', NULL, NULL, '$2y$12$xxZVN6e6a3hDxKhHxdSI7uzGvlLoYZfTUV2U1mx098p2LSKDOEEg6', 1, NULL, '2025-11-30 11:31:12', '2025-11-30 11:31:12', 'teacher');
 
 --
 -- Indexes for dumped tables
@@ -578,7 +578,8 @@ ALTER TABLE `student_results`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `users_email_unique` (`email`);
+  ADD UNIQUE KEY `users_email_unique` (`email`),
+  ADD UNIQUE KEY `users_enrollment_no_unique` (`enrollment_no`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -606,7 +607,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `permissions`
@@ -624,19 +625,19 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT for table `student_has_courses`
 --
 ALTER TABLE `student_has_courses`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `student_results`
 --
 ALTER TABLE `student_results`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 
 --
 -- Constraints for dumped tables
